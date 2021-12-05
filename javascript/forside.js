@@ -42,7 +42,4 @@ function toggleMenu() {
 }
 
 
-
-
-
 //manglende pensum
