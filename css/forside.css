@@ -83,7 +83,7 @@ body{
 .nav_bar-logo{
   display: flex;
   align-items: center;
- 
+
 }
 
 
@@ -93,9 +93,9 @@ body{
   height: 9rem;
   z-index: 99;
   position: fixed;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav__bar {
