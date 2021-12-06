@@ -157,7 +157,7 @@ a:hover {
 .banner__img{
   width: 100%;
   height: 425px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-top: 180px;
   opacity: 0.8;
 }
@@ -169,105 +169,45 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 80px 50px 80px;
+  margin: 50px 80px 50px 80px;
 }
 
-.tekstboks__p{
+.tekstboks h1{
+  color: var(--blue);
+}
+
+.tekstboks p{
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+/*-- Vission mission værdier --*/
+.vmv{
+  height: auto;
+  padding: 50px 80px 50px 80px;
+  background-color: var(--blue);
+  color: var(--white);
   line-height: 1.6;
 }
 
-#tekstboks__slogan{
-  font-style: italic;
-}
-
-/*-- tekst bokse slut--*/
-
-/*-- nyhedsbrev --*/
-.nyhedsbrev{
-  background-color: var(--blue);
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  padding: 30px 80px 30px 80px;
-  justify-content: space-between;
-  margin-bottom: 50px;
+.vmv p{
+  font-size: 15px;
 }
 
 
-.nyhedsbrev__tekstboks{
-  color: var(--white);
-}
 
-.nyhedsbrev__tilmeld{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1000px;
-}
-
-.email1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 25px;
-  margin: auto;
-  width: 80%;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
-  font-size: 12px;
-}
-
-.tilmeld1{
-  background-color: var(--gold);
-  border-radius: 4px;
-  font-size: 12px;
-  margin: auto;
-}
-
-.cta1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 25px;
-  width: 30%;
-  margin: auto;
-  color: #FFF4F4;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
+/*-- Golden cirkle --*/
+.golden-circle{
+  text-align: center;
+  background-color: var(--gold); /*lav opasity til 33%*/
+  padding: 50px 200px 50px 200px;
+  font-size: 20px;
 }
 
 
-/*-- Blive medlem CTA --*/
-.container4{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.stoet{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: auto;
-  width: 500px;
-  padding: 60px 50px 60px 50px;
-  margin: auto;
-}
-.stoet h1{
-  font-style: normal;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.stoet p{
-  line-height: 30px;
-  margin: auto;
-  text-align: justify;
-  text-justify: inter-word;
-}
+
 
 /*-- footer--*/
 footer{
