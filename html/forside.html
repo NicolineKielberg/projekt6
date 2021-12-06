@@ -1,43 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>Odense højskoleforening</title>
-    <meta name="odense_hojskoleforening" vontent="Dit fællesskab dit frirum">
+    <meta name="odense_hojskoleforening" vontent="Dit fællesskab dit frirum=">
     <link rel="stylesheet" href="../css/forside.css">
     <script src="" charset="utf-8"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,700&display=swap"
+      rel="stylesheet">
     <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
+    <script src="../javascript/forside.js"></script>
   </head>
 
-  <body>
-    <nav>
-      <!-- Burgermenu-->
-      <ol class="nav__list">
-        <li class="nav__list__item">
-          <img class="nav__list-img" src="../img/logo.png" alt="Logo">
-        </li>
-        <li class="nav__list__item">
-            <a class="nav__icon" href=""><i class="fas fa-bars"></i></a>
-        </li>
-      </ol>
-        <!-- indhold i burgermenu
-        <a href="forside.html"> Forside </a>
-        <a href="om-os.html"> Om os</a>
-        <a href="programmer"> Programmer</a>
-        <a href="Bliv medlem"> Bliv medlem</a>
-        <a href="Kontakt"> Kontakt</a> -->
 
-    </nav>
 
-    <div class="banner">
-      <img class="banner__img" src="../img/oh.jpg" alt="Forsamling">
-    </div>
+      <!-- Navigation items, that is not visable before clicking on the burger bar  -->
+    <body>
+      <nav class="nav">
+        <div class="nav__list-container">
+          <ul class="nav__list">
+            <li class="nav__list-item"><a class="nav__list-a" href="#">Forside</a></li>
+            <li class="nav__list-item"><a class="nav__list-a" href="#">Om os</a></li>
+            <li class="nav__list-item"><a class="nav__list-a" href="#">Bliv medlem</a></li>
+            <li class="nav__list-item"><a class="nav__list-a" href="#">Program</a></li>
+            <li class="nav__list-item nav__list-item--bottom"><a class="nav__list-a nav__list-a--bottom" href="#">Kontakt
+              os</a></li>
+          </ul>
+        </div>
 
+        <!-- Navigation -->
+        <div class="nav__navbar">
+          <div class="nav_bar-logo">
+            <img class="nav__list-img" src="../img/logo.png" alt="logo">
+            <div class="nav_bar-item">
+              <p class="nav__bar-item_txt">Odense</p>
+              <p class="nav__bar-item_txt">Højskoleforening</p>
+            </div>
+          </div>
+          <div>
+            <a id="hamburger" class="nav__icon"><i class="fas fa-bars"></i></a>
+            <a class="nav__icon2"><i class="fas fa-times"></i></a>
+          </div>
+        </div>
+      </nav>
 
     <main>
+      <div class="banner">
+        <img class="banner__img" src="../img/oh.jpg" alt="Forsamling">
+      </div>
+
       <div class="tekstboks">
         <p class="tekstboks__p">
           Hos Odense højskoleforening er det fællesskabet og de traditionelle
@@ -67,10 +81,10 @@
         </div>
         <div class="nyhedsbrev__tilmeld">
           <input class="email" type="text" id="lname" name="lastname" placeholder="Email addresse..">
-        <br>
-        <div class="tilmeld">
-          <a class="cta3" href="a"> Tilmeld </a>
-        </div>
+          <br>
+          <div class="tilmeld">
+            <a class="cta3" href="a"> Tilmeld </a>
+          </div>
         </div>
       </div>
 
@@ -89,6 +103,7 @@
       </div>
     </main>
 
+
     <footer>
       <div class="container5">
         <div class="boksen">
@@ -98,14 +113,14 @@
           <h4> Kontaktoplysninger </h4>
           <br>
           <p> <b> Email: </b>
-          <br>
-          Oh@hotmail.com
-          <br>
-          <br>
-          <b> Telefontider:</b>
-          <br>
-          Alle hverdage fra 10:00 - 14:00 <br>
-          +45 61 73 70 43
+            <br>
+            Oh@hotmail.com
+            <br>
+            <br>
+            <b> Telefontider:</b>
+            <br>
+            Alle hverdage fra 10:00 - 14:00 <br>
+            +45 61 73 70 43
           </p>
         </div>
         <div class="boksen">
@@ -114,7 +129,7 @@
         </div>
         <div class="boksen">
           <p>Har du lyst til at følge med i hvad der sker? <br>
-          Så tilmeld dig vores nyhedsbrev! </p>
+            Så tilmeld dig vores nyhedsbrev! </p>
           <br>
 
           <div class="inputBox">
@@ -123,9 +138,16 @@
           <br>
           <div class="tilmeld">
             <a class="cta3" href="a"> Tilmeld </a>
+
           </div>
         </div>
-      </div>
     </footer>
-  </body>
+
+
+
+
+
+
+</body>
+
 </html>
