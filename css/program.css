@@ -1,0 +1,428 @@
+:root{
+    --blue: #415870;
+    --gold: #CDC28B;
+    --white: #f7f8f8;
+    --grey: #DBDBDB;
+  
+    font-size: 20px;
+    font-family: Montserrat, regular;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, regular;
+  }
+  
+  body{
+    background-color: var(--white);
+    color: var(--blue);
+  }
+  
+  /* -- Navigation thats inst visable before clicking on the burger-bar --*/
+  
+  .nav__list-container {
+    background-color: var(--blue);
+    position: fixed;
+    width: 100%;
+    height: 89%;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transform: translateX(100%);
+    transition: transform 0.5s;
+  }
+  
+  
+  .showMenu {
+    transform: translateX(0);
+  }
+  
+  .closeMenu {
+    transform: translateX(2);
+    transition: transform 0.5s;
+  }
+  
+  .nav__list {
+    margin-left: 25px;
+  }
+  
+  .nav__list-item {
+    font-size: 4rem;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 15px;
+  }
+  
+  .nav__list-a {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+  
+  
+  .nav__list-item--bottom {
+    margin-bottom: 25px;
+  }
+  
+  .nav__list-a--bottom {
+    margin-bottom: 25px;
+  }
+  
+  /* -- Navigation --*/
+  .nav__list-img {
+    width: 176px;
+    height: 132px;
+  
+  }
+  .nav_bar-logo{
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  
+  .nav__navbar {
+    background-color: var(--blue);
+    width: 100%;
+    height: 9rem;
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 300px;
+  }
+  
+  .nav__bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 9rem;
+    list-style-type: none;
+  }
+  
+  .nav__bar-item {
+    font-size: 3.2rem;
+  }
+  /*name of  text beside the logo*/
+  .nav__bar-item_txt{
+    font-size: 1.5rem;
+    color: var(--white);
+  }
+  
+  .nav__icon {
+   color: var(--white);
+   text-decoration: none;
+   cursor: pointer;
+   font-size: 2.5rem;
+   margin-right: 40px;
+  }
+  
+  .nav__icon2 {
+    display: none;
+    /*visibility: hidden;*/
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-right: 40px;
+  }
+  
+  
+  /* mouse over link */
+  a:hover {
+    background-color: var(--gold);
+  }
+  
+  
+  /* -- Banner --*/
+  
+  .banner__img{
+    width: 100%;
+    height: 425px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+  }
+  
+  
+  /*-- tekst bokse --*/
+  .tekstboks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 80px 50px 80px;
+    background-color: pink;
+  }
+ 
+  
+  .tekstboks__p{
+    line-height: 1.6;
+  }
+  
+ 
+  
+  /*-- tekst bokse slut--*/
+  
+  /*-- nyhedsbrev --*/
+  .nyhedsbrev{
+    background-color: var(--blue);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 80px 30px 80px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .nyhedsbrev__tekstboks{
+    color: var(--white);
+  }
+  
+  .nyhedsbrev__tilmeld{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  /*-- Blive medlem CTA --*/
+  .container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stoet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 500px;
+    padding: 60px 50px 60px 50px;
+    margin: auto;
+  }
+  .stoet h1{
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stoet p{
+    line-height: 30px;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  /*--program --*/
+  
+.grid__list-img {
+    position: absolute;
+    top: 30px;
+    margin-left: 25px;
+    width: 255px;
+}
+
+.grid__list-container {
+  
+    position: fixed;
+    width: 100%;
+    height: 89%;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+}
+
+
+.grid__list {
+    margin-left: 25px;
+}
+
+.grid__list-item {
+    font-size: 4rem;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.grid__list-item_txt h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.grid__list-a {
+    color: var(--black);
+    font-size: 4rem;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 15px;
+    text-decoration: none;
+   
+}
+
+
+.grid__list-item--bottom {
+    margin-bottom: 25px;
+}
+
+.grid__list-a--bottom {
+    margin-bottom: 25px;
+}
+
+.grid__navbar {
+    margin-bottom: 27px;
+    width: 100%;
+    height: 9rem;
+    
+}
+
+.grid__bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 9rem;
+    list-style-type: none;
+    background-color: #ffffff;
+
+}
+
+
+.grid__bar-item-btn {
+    
+    height:95px;
+    width:118;
+}
+
+.grid__icon {
+   color: var(--white);
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.grid__icon2 {
+    display: none;
+    /*visibility: hidden;*/
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.grid__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    width: 10rem;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.grid__btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d7998;
+    width: 10rem;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  
+}
+
+
+
+.fa-clock{
+margin-right: 20px;
+}
+
+.fa-map-marker-alt{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+  /*-- footer--*/
+  footer{
+    height: auto;
+    background-color: var(--blue);
+  }
+  
+  
+  .container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  
+  
+  .boksen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--white);
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .boksen p{
+    font-size: 12px;
+  }
+  
+  .boksen .logo-footer{
+    width: 176px;
+    height: 132px;
+  }
+  
+  .tilmeld{
+    width: 100%;
+    background-color: var(--gold);
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  
+  .cta3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 25px;
+    width: 100%;
+    color: #FFF4F4;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 25px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  /* footer */
+  
