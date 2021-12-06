@@ -12,7 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Montserrat, regular;
+  font-family: Montserrat;
 }
 
 body{
@@ -158,6 +158,7 @@ a:hover {
   width: 100%;
   height: 425px;
   margin-bottom: 50px;
+  margin-top: 180px;
   opacity: 0.8;
 }
 
@@ -192,6 +193,7 @@ a:hover {
   margin-bottom: 50px;
 }
 
+
 .nyhedsbrev__tekstboks{
   color: var(--white);
 }
@@ -199,6 +201,41 @@ a:hover {
 .nyhedsbrev__tilmeld{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.email1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 25px;
+  margin: auto;
+  width: 80%;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.tilmeld1{
+  background-color: var(--gold);
+  border-radius: 4px;
+  font-size: 12px;
+  margin: auto;
+}
+
+.cta1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 25px;
+  width: 30%;
+  margin: auto;
+  color: #FFF4F4;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 
