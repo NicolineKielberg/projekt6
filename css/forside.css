@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Montserrat, regular;
 }
 
 body{
@@ -78,6 +79,58 @@ nav{
   font-style: italic;
 }
 
+/*-- tekst bokse slut--*/
+
+/*-- nyhedsbrev --*/
+.nyhedsbrev{
+  background-color: var(--blue);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 80px 30px 80px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.nyhedsbrev__tekstboks{
+  color: var(--white);
+}
+
+.nyhedsbrev__tilmeld{
+  display: flex;
+  flex-direction: row;
+}
+
+
+/*-- Blive medlem CTA --*/
+.container4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stoet{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 500px;
+  padding: 60px 50px 60px 50px;
+  margin: auto;
+}
+.stoet h1{
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stoet p{
+  line-height: 30px;
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 /*-- footer--*/
 footer{
