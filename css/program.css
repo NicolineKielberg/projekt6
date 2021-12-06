@@ -158,10 +158,13 @@
     justify-content: center;
     align-items: center;
     margin: 0px 80px 50px 80px;
-    background-color: pink;
+    padding-top: 250px;
   }
  
-  
+  .tekstboks__h3{
+    text-decoration: underline;
+  }
+
   .tekstboks__p{
     line-height: 1.6;
   }
@@ -347,7 +350,7 @@
   
 }
 
-
+ /*-- icons--*/
 
 .fa-clock{
 margin-right: 20px;
@@ -373,12 +376,11 @@ margin-right: 20px;
     justify-content: space-around;
   }
   
-  
+
   
   .boksen{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     color: var(--white);
     margin: 30px;
     padding-top: 20px;
@@ -388,10 +390,26 @@ margin-right: 20px;
   .boksen p{
     font-size: 12px;
   }
+  a:link {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: var(--white);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: var(--gold);
+  }
+  
   
   .boksen .logo-footer{
     width: 176px;
     height: 132px;
+    
   }
   
   .tilmeld{
