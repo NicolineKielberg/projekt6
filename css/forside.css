@@ -198,6 +198,10 @@ a:hover {
   color: var(--white);
 }
 
+.nyhedsbrev__tekstboks p{
+  font-size: 15px;
+}
+
 .nyhedsbrev__tilmeld{
   display: flex;
   flex-direction: row;
@@ -209,8 +213,9 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 25px;
+  padding: 8px 25px 8px 10px;
   margin: auto;
+  margin-right: 30px;
   width: 80%;
   border: none;
   cursor: pointer;
@@ -257,16 +262,22 @@ a:hover {
 }
 .stoet h1{
   font-style: normal;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 .stoet p{
   line-height: 30px;
+  text-align: center;
   margin: auto;
-  text-align: justify;
-  text-justify: inter-word;
+}
+
+.bliv-medlem-knap{
+  background-color: var(--blue);
+  padding: 8px 25px 8px 25px;
+  border-radius: 4px;
+  margin: auto;
+  text-align: center;
+
 }
 
 /*-- footer--*/
