@@ -234,11 +234,22 @@
   /*--timeline --*/
 
   #timeline-wrap{
-    margin-left: 250px;
+    width: 704px;
     margin-bottom: 50px;
     top:100%;
     position:relative;
-   
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: space-between;
+  }
+
+  .timeline-item{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   #timeline{
@@ -255,8 +266,6 @@
     line-height: 50px;
     font-size: 1.4em;
     text-align: center;
-    position: absolute;
-    margin-left: -25px;
     border: 2px solid var(--blue);
     border-radius: 50%;
           }
@@ -281,7 +290,7 @@
       color: var(--white);
 
   }
-  
+
   .timeline-icon.two {
       
   }
