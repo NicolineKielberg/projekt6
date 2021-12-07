@@ -20,7 +20,8 @@ function conformationSceen() {
 
 }
 
-// array 
+
+// pensum
 let text = ["Lad", "mig", "består", "tak"];
 for (let i = 0; i < text.length; i++) {
     console.log(text[i]);
