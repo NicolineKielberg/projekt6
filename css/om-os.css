@@ -301,17 +301,18 @@ a:hover {
 /*-- Golden cirkle --*/
 .golden-circle{
   text-align: center;
-  background-color: var(--gold); /*lav opasity til 33%*/
+  background-color: #cdc28b61; /*lav opasity til 33%*/
   padding: 50px 200px 50px 200px;
   font-size: 20px;
   margin-top: 100px;
   line-height: 1.6;
 }
 
-/*-- footer--*/
-footer{
+ /*-- footer--*/
+ footer{
   height: auto;
   background-color: var(--blue);
+
 }
 
 
@@ -321,10 +322,11 @@ footer{
   justify-content: space-around;
 }
 
+
+
 .boksen{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   color: var(--white);
   margin: 30px;
   padding-top: 20px;
@@ -334,10 +336,27 @@ footer{
 .boksen p{
   font-size: 12px;
 }
+a:link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: var(--white);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--gold);
+}
+
 
 .boksen .logo-footer{
   width: 176px;
   height: 132px;
+  margin-left: -27px;
+  
 }
 
 .tilmeld{
@@ -370,4 +389,5 @@ footer{
   border-radius: 10px;
   font-size: 12px;
 }
+/* footer */
 /* footer */
