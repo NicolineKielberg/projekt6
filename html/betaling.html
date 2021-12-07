@@ -26,10 +26,10 @@
     <nav class="nav">
         <div class="nav__list-container">
             <ul class="nav__list">
-                <li class="nav__list-item"><a class="nav__list-a" href="#">Forside</a></li>
-                <li class="nav__list-item"><a class="nav__list-a" href="#">Om os</a></li>
-                <li class="nav__list-item"><a class="nav__list-a" href="#">Bliv medlem</a></li>
-                <li class="nav__list-item"><a class="nav__list-a" href="#">Program</a></li>
+                <li class="nav__list-item"><a class="nav__list-a" href="../html/forside.html">Forside</a></li>
+                <li class="nav__list-item"><a class="nav__list-a" href="../html/om-os.html">Om os</a></li>
+                <li class="nav__list-item"><a class="nav__list-a" href="../html/betaling.html">Bliv medlem</a></li>
+                <li class="nav__list-item"><a class="nav__list-a" href="../html/program.html">Program</a></li>
                 <li class="nav__list-item nav__list-item--bottom"><a class="nav__list-a nav__list-a--bottom"
                         href="#">Kontakt
                         os</a></li>
@@ -52,7 +52,7 @@
         </div>
     </nav>
 
-    <main>
+    <main class="background">
         <!-- Betaling -->
         <!-- ---------------timeline------------------------- -->
         <div id="payment">
@@ -68,17 +68,29 @@
                     <p>1</p>
                 </div>
 
+                <div class="txt">
+                    <p>Personlige oplysninger</p>
+                </div>
+
                 <!-- / marker -->
 
                 <!-- This is the individual marker-->
                 <div class="marker m2 timeline-icon two">
                     <p>2</p>
                 </div>
+
+                <div class="txt">
+                    <p>Betaling</p>
+                </div>
                 <!-- / marker -->
 
                 <!-- This is the individual marker-->
                 <div class="marker m3 timeline-icon three">
                     <p>3</p>
+                </div>
+
+                <div class="txt">
+                    <p class="txtend">Bekræftelse</p>
                 </div>
                 <!-- / marker -->
 
@@ -136,21 +148,61 @@
 
         <!-- ------------------------------conformation page---------------------------------- -->
         <div id="confirmation">
-            <section class="conformation" id="conformation">
+            <div id="payment">
+                <div class="tekstboks">
+                    <h1> Bekræftelse </h1>
+                </div>
 
-                <i class="fas fa-check-circle"></i>
-                <br>
+                <div id="timeline-wrap">
+                    <div id="timeline"></div>
 
-                <h2 class="conformation__title">Tak for din tilmelding. </h2>
-                <br>
-                <h2 class="conformation__title">Vi glæder os til at tag imod dig. </h2>
+                    <!-- This is the individual marker-->
+                    <div class="marker mfirst timeline-icon one">
+                        <p>1</p>
+                    </div>
 
-            </section>
+                    <div class="txt">
+                        <p>Personlige oplysninger</p>
+                    </div>
 
-            <section class="submit">
-                <a href="#"> <button class="submit__btn">Til Forsiden</button></a>
-            </section>
-        </div>
+                    <!-- / marker -->
+
+                    <!-- This is the individual marker-->
+                    <div class="marker m2 timeline-icon two">
+                        <p>2</p>
+                    </div>
+
+                    <div class="txt">
+                        <p>Betaling</p>
+                    </div>
+                    <!-- / marker -->
+
+                    <!-- This is the individual marker-->
+                    <div class="marker m3 timeline-icon three">
+                        <p>3</p>
+                    </div>
+
+                    <div class="txt">
+                        <p class="txtend">Bekræftelse</p>
+                    </div>
+                    <!-- / marker -->
+
+                </div>
+                <section class="conformation" id="conformation">
+
+                    <i class="fas fa-check-circle"></i>
+                    <br>
+
+                    <h2 class="conformation__title">Tak for din tilmelding. </h2>
+                    <br>
+                    <h2 class="conformation__title">Vi glæder os til at tag imod dig. </h2>
+
+                </section>
+
+                <section class="submit">
+                    <a href="../html/forside.html"> <button class="submit__btn">Til Forsiden</button></a>
+                </section>
+            </div>
 
     </main>
 
