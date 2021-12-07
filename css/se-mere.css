@@ -210,16 +210,17 @@ footer{
 }
 
 
-.container5{
+#container5{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
+
+
 .boksen{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   color: var(--white);
   margin: 30px;
   padding-top: 20px;
@@ -229,10 +230,27 @@ footer{
 .boksen p{
   font-size: 12px;
 }
+a:link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: var(--white);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--gold);
+}
+
 
 .boksen .logo-footer{
   width: 176px;
   height: 132px;
+  margin-left: -27px;
+
 }
 
 .tilmeld{
