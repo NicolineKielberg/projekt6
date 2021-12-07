@@ -50,16 +50,14 @@
   }
   
   .nav__list-item {
-    font-size: 4rem;
-    font-weight: bold;
+    font-size: 2rem;
     list-style: none;
     margin-bottom: 15px;
   }
   
   .nav__list-a {
     color: var(--white);
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.7rem;
     list-style: none;
     margin-bottom: 15px;
     text-decoration: none;

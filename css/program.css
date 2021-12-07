@@ -58,8 +58,7 @@
   
   .nav__list-a {
     color: var(--white);
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.7rem;
     list-style: none;
     margin-bottom: 15px;
     text-decoration: none;
@@ -161,12 +160,10 @@
     padding-top: 250px;
   }
  
-  .tekstboks__h3{
-    text-decoration: underline;
-  }
 
   .tekstboks__p{
     line-height: 1.6;
+    text-align: center;
   }
   
  

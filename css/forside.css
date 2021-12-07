@@ -58,8 +58,7 @@ body{
 
 .nav__list-a {
   color: var(--white);
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.7rem;
   list-style: none;
   margin-bottom: 15px;
   text-decoration: none;
