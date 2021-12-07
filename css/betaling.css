@@ -50,7 +50,8 @@
   }
   
   .nav__list-item {
-    font-size: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
     list-style: none;
     margin-bottom: 15px;
   }
@@ -61,6 +62,7 @@
     list-style: none;
     margin-bottom: 15px;
     text-decoration: none;
+    
   }
   
   
