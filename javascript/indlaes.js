@@ -1,6 +1,6 @@
 //Xenia//
 //dom - jeg kalder et dom objekt som gør at vi kan tilgå elementer på html siden.
-//derefter kalder jeg på eventlistener, og det gør at vi kn attach specifikke elementer på siden. Dette tilgår en klikfunktion.
+//derefter kalder jeg på eventlistener, og det gør at vi kan attach specifikke elementer på siden. Dette tilgår en klikfunktion.
 //I funktionen udløses diven der indeholder content der bliver vist, når funktionen bliver klikket.
 //query selector = det gør at man kan returnere elementer der matcher et specifikt element (class container10)
 //getElementById = kalder specifikt kun på id.
@@ -15,7 +15,7 @@ document.getElementById("knap").addEventListener("click", function(){
 
 //kommentar - manglende pensum//
 //jeg har lavet en variabel og givet den en værdi som er et arrey objek Firkantet er et objekt//
-// har jeg insdat 5 elemnter som er i datatypen string.
+// har jeg indsat 5 elemnter som er i datatypen string.
 
 
  //pensum
@@ -25,7 +25,7 @@ document.getElementById("knap").addEventListener("click", function(){
 // jeg laver en variabel som jeg giver værdien 0, da jeg gerne ville have at listen starter looped på place 0 i arraylisten
 // looper igennem mit arrays længe, fra pladsen 0.
 // hver gang den looper printer den elemnter fra din liste ud i consolen.
-//xenia repræsenterer alle elementerne i mit arrey
+//i repræsenterer alle elementerne i mit arrey
 
   for (var i = 0; i < juleønsker.length; i++) {
   console.log(juleønsker[i]);
@@ -36,11 +36,11 @@ document.getElementById("knap").addEventListener("click", function(){
   let b = 10;
 
   if (a > b) {
-  console.log('xenia så dejlig'); //printer datatypen string ud som er 'xenia så dejlig'
+  console.log('xenia er sjov'); //printer datatypen string ud som er 'xenia så dejlig'
 
     }else if (a < b) {
-  console.log('xenia er ekstrem dejlig');
+  console.log('xenia er ekstrem sjov');
   }
    else { //hvis andet så skal den printe ......
-  console.log('xenia er rigtig dejlig');
+  console.log('xenia er ikke sjov');
   }
