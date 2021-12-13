@@ -168,15 +168,11 @@
 
 
 .container10{
-  display: none
-
-
-
-  ;
+  display: none;
   flex-direction: column;
-
-
 }
+
+
   /*-- tekst bokse slut--*/
 
   /*-- nyhedsbrev --*/
@@ -359,8 +355,8 @@
 /*--indlæs knap --*/
 
 .grid__indlaes{
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   height: 9rem;
