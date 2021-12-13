@@ -1,4 +1,5 @@
 :root{
+
   --blue: #415870;
   --gold: #CDC28B;
   --white: #f7f8f8;
@@ -166,6 +167,12 @@ a:hover {
   text-align: center;
 }
 
+
+.container10{
+  display: none;
+  flex-direction: column;
+}
+
 /*tilmeld pop up*/
 
 .tilmeldpopup{
@@ -178,6 +185,8 @@ a:hover {
   border-radius: 10px;
   margin-bottom: 50px;
   z-index: 99;
+
+
 }
 
 #tilmeldpopup-kryds{
@@ -200,6 +209,8 @@ a:hover {
 }
 
 /*-- tekst bokse slut--*/
+
+
 
 /*-- nyhedsbrev --*/
 .nyhedsbrev{
@@ -252,7 +263,39 @@ a:hover {
   text-justify: inter-word;
 }
 
-/*--program --*/
+
+
+  /*-- Blive medlem CTA --*/
+  .container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .stoet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 500px;
+    padding: 60px 50px 60px 50px;
+    margin: auto;
+  }
+  .stoet h1{
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .stoet p{
+    line-height: 30px;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  /*--program --*/
 
 .grid__list-img {
   position: absolute;
@@ -262,7 +305,6 @@ a:hover {
 }
 
 .grid__list-container {
-
   position: fixed;
   width: 100%;
   height: 89%;
@@ -366,31 +408,42 @@ a:hover {
 
 #grid__btn2 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #5d7998;
-  width: 10rem;
-  height: 2rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  border-radius: 4px;
-  font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d7998;
+    width: 10rem;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 0.8rem;
 
 }
 
 .grid__btn2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #5d7998;
-  width: 10rem;
-  height: 2rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  border-radius: 4px;
-  font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d7998;
+    width: 10rem;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 0.8rem;
 
 }
+/*--indlæs knap --*/
+
+.grid__indlaes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 9rem;
+  list-style-type: none;
+}
+
 
 /*-- icons--*/
 
