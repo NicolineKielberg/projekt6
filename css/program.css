@@ -166,6 +166,7 @@
     text-align: center;
   }
 
+<<<<<<< HEAD
   /*tilmeld pop up*/
 
   .tilmeldpopup{
@@ -199,6 +200,19 @@
     margin-top: 150px;
   }
 
+=======
+
+.container10{
+  display: none
+
+
+
+  ;
+  flex-direction: column;
+
+
+}
+>>>>>>> Xeniajs
   /*-- tekst bokse slut--*/
 
   /*-- nyhedsbrev --*/
@@ -304,6 +318,7 @@
 }
 
 
+
 .grid__list-item--bottom {
     margin-bottom: 25px;
 }
@@ -376,6 +391,24 @@
     border-radius: 4px;
     font-size: 0.8rem;
 
+<<<<<<< HEAD
+=======
+}
+/*--indlæs knap --*/
+
+.grid__indlaes{
+display: flex;
+flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 9rem;
+  list-style-type: none;
+}
+
+#knap{
+font-size: 2rem;
+
+>>>>>>> Xeniajs
 }
 
  /*-- icons--*/
