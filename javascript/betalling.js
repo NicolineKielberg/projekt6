@@ -20,8 +20,6 @@ function conformationSceen() {
 
 }
 
-let navn = "xenia"
-
 
 // pensum
 let text = ["Lad", "mig", "bestå", "tak"];
