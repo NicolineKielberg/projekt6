@@ -18,5 +18,6 @@ var minGruppe=['Xenia', 'Nadin', 'Nicoline', 'Jonna'];
 }
 
 for (var i = 0; i < minGruppe.length; i++) {
-  minGruppe[i]
+  console.log("medlemmerne er:");
+  console.log(minGruppe[i]);
 }
