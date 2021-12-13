@@ -62,7 +62,7 @@ body{
   list-style: none;
   margin-bottom: 15px;
   text-decoration: none;
-  
+
 }
 
 
@@ -183,8 +183,51 @@ a:hover {
 /*-- tekst bokse slut--*/
 
 /*-- nyhedsbrev --*/
+.nyhedspopup{
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  display: none;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  z-index: 99;
+}
+
+#nyhedspopup-kryds{
+  background-color: var(--blue);
+  width: 30px;
+  height: 30px;
+  border-radius: 40px;
+  margin-left: 350px;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cta1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 25px;
+  width: 30%;
+  margin: auto;
+  color: #FFF4F4;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.nyhedspopup h4{
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 150px;
+}
+
 .nyhedsbrev{
-  margin-top: 90px;
   background-color: var(--blue);
   height: auto;
   display: flex;
@@ -210,6 +253,7 @@ a:hover {
   width: 1000px;
 }
 
+
 .email1{
   display: flex;
   align-items: center;
@@ -231,18 +275,6 @@ a:hover {
   margin: auto;
 }
 
-.cta1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 25px;
-  width: 30%;
-  margin: auto;
-  color: #FFF4F4;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
 
 
 /*-- Blive medlem CTA --*/
@@ -300,7 +332,7 @@ a:hover {
 
 
  /*--program --*/
-  
+
  .grid__list-img {
   position: absolute;
   top: 30px;
@@ -347,7 +379,7 @@ a:hover {
   list-style: none;
   margin-bottom: 15px;
   text-decoration: none;
- 
+
 }
 
 
@@ -363,7 +395,7 @@ a:hover {
   margin-bottom: 27px;
   width: 100%;
   height: 9rem;
-  
+
 }
 
 .grid__bar {
@@ -378,7 +410,7 @@ a:hover {
 
 
 .grid__bar-item-btn {
-  
+
   height:95px;
   width:118;
 }
@@ -491,7 +523,7 @@ a:hover {
   width: 176px;
   height: 132px;
   margin-left: -27px;
-  
+
 }
 
 .tilmeld{
@@ -525,4 +557,3 @@ a:hover {
   font-size: 12px;
 }
 /* footer */
-

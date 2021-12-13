@@ -13,15 +13,16 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
     <script src="../javascript/forside.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics --> 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJMQ0BYYE2"></script> 
-<script> 
-window.dataLayer = window.dataLayer || []; 
-function gtag(){dataLayer.push(arguments);} 
-gtag('js', new Date()); 
- 
-gtag('config', 'G-BJMQ0BYYE2'); 
-</script> 
+    <script src="../javascript/tilmeld-popup-nicoline.js" defer></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJMQ0BYYE2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-BJMQ0BYYE2');
+</script>
     <!-- name the js file to navigation.js -->
 
 
@@ -73,6 +74,10 @@ gtag('config', 'G-BJMQ0BYYE2');
     </div>
 
 
+    <div class="tilmeldpopup">
+      <a id="tilmeldpopup-kryds" href="#"> X </a>
+      <h4> Tak for din tilmelding </h4>
+    </div>
 
 
     <section class="grid">
@@ -103,11 +108,8 @@ gtag('config', 'G-BJMQ0BYYE2');
                             Mere info
                         </div>
                     </a>
-                    <a class="grid__icon" href="se-mere.html">
-                        <div class="grid__btn2">
-                            Tilmeld
-                        </div>
-                    </a>
+                    <a class="grid__icon"> </a>
+                      <a id="grid__btn2" href="#"> Tilmeld </a>
                 </li>
             </ol>
         </div>
