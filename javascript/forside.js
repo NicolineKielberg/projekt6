@@ -41,5 +41,3 @@ function toggleMenu() {
     }
 }
 
-
-//manglende pensum

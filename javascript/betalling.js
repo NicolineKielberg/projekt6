@@ -20,9 +20,11 @@ function conformationSceen() {
 
 }
 
+let navn = "xenia"
+
 
 // pensum
-let text = ["Lad", "mig", "består", "tak"];
+let text = ["Lad", "mig", "bestå", "tak"];
 for (let i = 0; i < text.length; i++) {
     console.log(text[i]);
 }
